@@ -1,0 +1,162 @@
+<html> 
+<body> 
+   <table > 
+    <caption><h1>ÐANG KÝ</h1></caption>
+	<tr>
+	 <td > <i>* Tru?ng b?t bu?c </i></td><td>
+	 <td> 
+	       
+            <label for="canhan"></label>  
+            <input type="radio" id="canhan" name="gender" value="canhan" checked>Cá nhân  
+            <input type="radio" id="canhan" name="gender" value="Tochuc" >Công ty/ T? ch?c <br/>  
+           
+     </td>
+    </tr>
+    <tr>    
+	 
+	     <td></td>
+		 <td> <label for="name">H? và tên* </label> </td>
+		 
+		 <td> <input type="text" id ="name" name ="name"/> <td>
+	  
+	 
+    </tr> 
+	<tr><form>
+	 
+	     <td></td>
+		 <td> <label for="sdt">S? di?n tho?i* </label> </td>
+		 
+		 <td> <input type="text" id ="sdt" name ="sdt"/> </td>
+	  
+     </form>
+    </tr>	 
+	<tr> 
+	 <td></td>
+		 <td> <label for="ns">Ngày Sinh* </label> </td>
+		 
+		 <td> <input type="text" id ="ns" name ="ns"/> <td>
+	</tr>
+	<tr> 
+	 <td></td>
+	 <td> <label for="dc">Ð?a ch?*</label> </td>
+	 
+	 <td><input type="text" id="dc" name="dc"/></td>
+	 <td> 
+            <label for="hcm"></label>  
+            <input type="radio" id="hcm" name="gender1" value="hcm" checked/>TP. HCM   
+     </td>     
+		   
+	
+	 <td> <select name="country" id="register_country" style="width:160px"> </td> 
+	</tr>
+	<tr> 
+	 <td></td><td></td><td></td>
+	 <td> 
+	  <label for="hcm"></label>  
+      <input type="radio" id="hcm" name="gender1" value="hcm" >T?nh thành khác
+     </td>
+	 
+	 <td>
+	  <select name="country" id="register_country" style="width:160px"> 
+	    <option value="An Giang">An Giang</option>
+	    <option value="Bà R?a-Vung Tàu">Bà R?a-Vung Tàu</option>
+        <option value="B?c Liêu">B?c Liêu</option>
+		<option value="B?c K?n">B?c K?n</option>
+		<option value="B?c Giang">B?c Giang</option>
+		<option value="B?c Ninh">B?c Ninh</option>
+ 		<option value="B?n Tre">B?n Tre</option>
+		<option value="Bình Duong">Bình Duong</option>
+ 		<option value="Bình Ð?nh">Bình Ð?nh</option>
+		<option value="Bình Phu?c">Bình Phu?c</option>
+ 		<option value="Bình Thu?n">Bình Thu?n</option>
+		<option value="Cà Mau">Cà Mau</option>
+		<option value="Cao B?ng">Cao B?ng</option>
+		<option value="C?n Tho (TP)">C?n Tho (TP)</option>
+		<option value="Ðà N?ng (TP)">Ðà N?ng (TP)</option>
+		<option value="Ð?k L?k">Ð?k L?k</option>
+		<option value="Ð?k Nông">Ð?k Nông</option>
+ 		<option value="Ði?n Biên">Ði?n Biên</option>
+ 		<option value="Ð?ng Nai">Ð?ng Nai</option>
+		<option value="Ð?ng Tháp">Ð?ng Tháp</option>
+		<option value="Gia Lai">Gia Lai</option>
+ 		<option value="Hà Giang">Hà Giang</option>
+ 		<option value="Hà Nam">Hà Nam</option>
+ 		<option value="Hà N?i (TP)">Hà N?i (TP)</option>
+ 		<option value="Hà Tây">Hà Tây</option>
+ 		<option value="Hà Tinh">Hà Tinh</option>
+ 		<option value="H?i Duong">H?i Duong</option>
+ 		<option value="H?i Phòng (TP)">H?i Phòng (TP)</option>
+ 		<option value="Hòa Bình">Hòa Bình</option>
+ 		<option value="H?u Giang">H?u Giang</option>
+ 		<option value="Hung Yên">Hung Yên</option>
+ 		<option value="Khánh Hòa">Khánh Hòa</option>
+ 		<option value="Kiên Giang">Kiên Giang</option>
+ 		<option value="Kon Tum">Kon Tum</option>
+ 		<option value="Lai Châu">Lai Châu</option>
+ 		<option value="Lào Cai">Lào Cai</option>
+ 		<option value="L?ng Son">L?ng Son</option>
+ 		<option value="Lâm Ð?ng">Lâm Ð?ng</option>
+ 		<option value="Long An">Long An</option>
+ 		<option value="Nam Ð?nh">Nam Ð?nh</option>
+ 		<option value="Ngh? An">Ngh? An</option>
+ 		<option value="Ninh Bình">Ninh Bình</option>
+ 		<option value="Ninh Thu?n">Ninh Thu?n</option>
+ 		<option value="Phú Th?">Phú Th?</option>
+ 		<option value="Phú Yên">Phú Yên</option>
+ 		<option value="Qu?ng Bình">Qu?ng Bình</option>
+ 		<option value="Qu?ng Nam">Qu?ng Nam</option>
+ 		<option value="Qu?ng Ngãi">Qu?ng Ngãi</option>
+ 		<option value="Qu?ng Ninh">Qu?ng Ninh</option>
+ 		<option value="Qu?ng Tr?">Qu?ng Tr?</option>
+ 		<option value="Sóc Trang">Sóc Trang</option>
+ 		<option value="Son La">Son La</option>
+ 		<option value="Tây Ninh">Tây Ninh</option>
+ 		<option value="Thái Bình">Thái Bình</option>
+ 		<option value="Thái Nguyên">Thái Nguyên</option>
+ 		<option value="Thanh Hóa">Thanh Hóa</option>
+ 		<option value="Th?a Thiên - Hu?">Th?a Thiên - Hu?</option>
+ 		<option value="Ti?n Giang">Ti?n Giang</option>
+ 		<option value="Trà Vinh">Trà Vinh</option>
+ 		<option value="Tuyên Quang">Tuyên Quang</option>
+ 		<option value="Vinh Long">Vinh Long</option>
+ 		<option value="Vinh Phúc">Vinh Phúc</option>
+ 		<option value="Yên Bái">Yên Bái</option> 
+		</td>
+		
+	<tr>
+	 <td></td>
+	 <td> 
+	   <label for="gt">Gi?i tính </label>  
+    
+	<td>  <input type="radio" id="gt" name="gt" value="gt" checked/>Nam  
+          <input type="radio" id="gt" name="gt" value="gt" >N?  
+	</td>	  
+	</td>
+	</tr>
+	<tr> 
+	  <td></td>
+	  <td>    <label for="email">Email* </label>                </td>  
+      <td>    <input type="email" id="email" name="email"/>     </td>
+	</tr>
+	<tr> 
+	  <td></td>
+	  <td>    <label for="pass">M?t kh?u* </label>                </td>  
+      <td>    <input type="password" id="pass" name="pass"/>     </td>
+	</tr>
+	<tr> 
+	  <td></td>
+	  <td>    <label for="pass1">Nh?p l?i m?t kh?u* </label>                </td>  
+      <td>    <input type="password" id="pass1" name="pass1"/>     </td>
+	</tr>
+	
+	<tr> 
+	  
+      <td colspan="2"> 
+        <div align="right"><input type="submit" id="register_0" value="submit"/>
+        </div> 
+      </td>
+    </tr>
+
+   </table> 
+</body
+</html>
